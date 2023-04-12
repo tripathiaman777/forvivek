@@ -1,6 +1,6 @@
 <template>
 <main-body></main-body>
-<entry-page></entry-page>
+<!-- <entry-page></entry-page> -->
 
 </template>
 

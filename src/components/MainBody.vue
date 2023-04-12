@@ -1,8 +1,8 @@
 <template>
     <div class="mainbody">
 
-        <nav-bar @page="func"></nav-bar>
-        <home-page :property="values"></home-page>
+        <nav-bar ></nav-bar>
+        <home-page></home-page>
        
     
     </div>
@@ -14,17 +14,6 @@ import NavBar from './layout/NavBar.vue'
 import  HomePage from './HomePage.vue'
 export default{
   components: { NavBar,HomePage },
-  data(){
-    return{
-        values:'emp-table'
-    }
-  },
-  methods:{
-    func(val){
-        return this.values=val;
-        // alert(this.values,)
-    }
-  }
 }
 
 </script>
